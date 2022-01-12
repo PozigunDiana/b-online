@@ -1,0 +1,108 @@
+.search {
+    position: relative;
+    padding: 5px 5px 5px 30px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 35px;
+    height: 57px;
+    form {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+    button {
+        width: 165px;
+        height: 47px;
+        margin: 0 0 0 912px;
+        padding: 13px 40px 12px;
+        border-radius: 5px;
+        background-color: #e3ce4f;
+        border: none;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        color: #000;
+        font-weight: bold;
+        font-size: 0.875rem;
+        cursor: pointer;
+    }
+    button:hover {
+        background: #000;
+        color: #fff;
+    }
+    button i {
+        color: #000
+    }
+    button:hover i {
+        color: #fff
+    }
+    input {
+        width: calc(100% - 184px);
+        height: 46px;
+        border: none;
+        color: #000;
+    }
+}
+
+input::-webkit-input-placeholder {
+    color: #000
+}
+
+input::-moz-placeholder {
+    color: #000
+}
+
+input:-moz-placeholder {
+    color: #000
+}
+
+input:-ms-input-placeholder {
+    color: #000
+}
+
+input:focus-visible {
+    outline: 0px;
+}
+
+.form-search-section {
+    padding: 10px 30px 10px 10px;
+    border-radius: 8px;
+    background-color: rgba(227, 205, 79, 0.1);
+    margin-bottom: 35px;
+    .search {
+        margin-bottom: 0;
+        width: 48%;
+    }
+}
+
+.wrapper-search-blk {
+    .search-blk-title {
+        font-size: 1.125rem;
+        margin-right: 15px;
+    }
+    select {
+        width: 160px;
+        height: 48px;
+        padding: 10px 10px;
+        border-radius: 5px;
+        border: solid 1px #888;
+        background-color: #fff;
+        cursor: pointer;
+        font-size: 1.125rem;
+        color: #3a3a38;
+        appearance: none;
+        outline: 0;
+    }
+    .select {
+        position: relative;
+    }
+    .select:after {
+        content: '\f107';
+        position: absolute;
+        right: 15px;
+        top: 17px;
+        pointer-events: none;
+        color: #333;
+        font: normal normal normal 14px/1 FontAwesome;
+    }
+}

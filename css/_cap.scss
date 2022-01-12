@@ -1,0 +1,83 @@
+    header:not(.start-page) .cap-section {
+        background-color: #000;
+    }
+    
+    .menu {
+        flex-grow: 1;
+        padding: 0 75px;
+        * {
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        li {
+            list-style: none;
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        a:hover {
+            opacity: 0.8;
+        }
+    }
+    
+    .cap-section {
+        padding: 35px 0;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .wrapper-cap-battons a+a {
+        margin-left: 15px;
+    }
+    
+    .cap-home-page {
+        min-height: 792px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .up {
+        margin-top: -126px;
+        z-index: 1;
+    }
+    
+    .owl-dots {
+        position: absolute;
+        bottom: 20px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+            width: 7px;
+            height: 7px;
+            background: #fff;
+            display: inline-block;
+            border-radius: 50%;
+            margin: 0 5px;
+            position: relative;
+        }
+        button.active span {
+            width: 10px;
+            height: 10px;
+            top: 2px;
+        }
+    }
+    
+    .banner-inner {
+        // max-width: 700px;
+        // margin: 0 auto;
+        padding-top: 40px;
+    }
+    
+    .cap-slider .owl-nav {
+        display: none;
+    }
