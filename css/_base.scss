@@ -27,7 +27,7 @@ html {
 }
 
 * {
-    font-family: Bull;
+    font-family: 'Bull';
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -93,4 +93,20 @@ h2 {
     margin: 50px 0 20px;
     font-weight: bold;
     line-height: 2.5rem;
+}
+
+span {
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+b,
+strong {
+    font-weight: bold;
+    font-size: inherit;
+}
+
+p:empty {
+    padding: 10px 0;
 }

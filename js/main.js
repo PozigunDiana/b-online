@@ -20,3 +20,9 @@ $('.base-carousel-6').owlCarousel({
     nav: true,
     items: 6
 });
+$('.gallery-slider').owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: true,
+    items: 3
+});
