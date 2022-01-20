@@ -336,6 +336,18 @@
             vertical: true,
             verticalSwiping: true
         });
+
+        let maxHeight = -1;
+        $('.video-slider-nav .slick-slide').each(function () {
+            if ($(this).height() > maxHeight) {
+                maxHeight = $(this).height();
+            }
+        });
+        $('.video-slider-nav .slick-slide').each(function () {
+            if ($(this).height() < maxHeight) {
+                $(this).css('margin', Math.ceil((maxHeight - $(this).height()) / 2) + 'px 0');
+            }
+        });
     </script>
     <script src="js/video-tabs.js"></script>
 </body>
