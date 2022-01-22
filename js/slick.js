@@ -59,7 +59,7 @@
                 dots: false,
                 dotsClass: 'slick-dots',
                 draggable: true,
-                easing: 'linear',
+                easign: 'linear',
                 edgeFriction: 0.35,
                 fade: false,
                 focusOnSelect: false,
@@ -270,11 +270,11 @@
             if (_.options.vertical === false) {
                 _.$slideTrack.animate({
                     left: targetLeft
-                }, _.options.speed, _.options.easing, callback);
+                }, _.options.speed, _.options.easign, callback);
             } else {
                 _.$slideTrack.animate({
                     top: targetLeft
-                }, _.options.speed, _.options.easing, callback);
+                }, _.options.speed, _.options.easign, callback);
             }
 
         } else {
@@ -289,7 +289,7 @@
                     animStart: targetLeft
                 }, {
                     duration: _.options.speed,
-                    easing: _.options.easing,
+                    easign: _.options.easign,
                     step: function(now) {
                         now = Math.ceil(now);
                         if (_.options.vertical === false) {
@@ -944,7 +944,7 @@
 
             _.$slides.eq(slideIndex).animate({
                 opacity: 1
-            }, _.options.speed, _.options.easing, callback);
+            }, _.options.speed, _.options.easign, callback);
 
         } else {
 
@@ -977,7 +977,7 @@
             _.$slides.eq(slideIndex).animate({
                 opacity: 0,
                 zIndex: _.options.zIndex - 2
-            }, _.options.speed, _.options.easing);
+            }, _.options.speed, _.options.easign);
 
         } else {
 
@@ -2143,7 +2143,7 @@
             /**
              * accepts arguments in format of:
              *
-             *  - for changing a single option's value:
+             *  - for changing a signle option's value:
              *     .slick("setOption", option, value, refresh )
              *
              *  - for changing a set of responsive options:
@@ -2175,13 +2175,13 @@
 
                 } else if (typeof arguments[1] !== 'undefined') {
 
-                    type = 'single';
+                    type = 'signle';
 
                 }
 
             }
 
-            if (type === 'single') {
+            if (type === 'signle') {
 
                 _.options[option] = value;
 

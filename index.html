@@ -23,31 +23,31 @@
                             <li><a href="breaking-news.html">Breaking news</a></li>
                             <li><a href="battle-league.html">Battle league</a></li>
                             <li><a href="knowledge.html">Knowledge</a></li>
-                            <li><a href="">Dancers</a></li>
+                            <li><a href="dancers.html">Dancers</a></li>
                             <li><a href="events.html">Events</a></li>
                             <li><a href="">Ranking</a></li>
                         </ul>
                     </div>
                     <div class="wrapper-cap-battons">
-                        <a href="" class="btn-border-white">Log in</a>
-                        <a href="" class="btn-full-yellow">Sing-up</a>
+                        <a href="#login" class="btn-border-white modal-btn">Log in</a>
+                        <a href="registration.html" class="btn-full-yellow modal-btn">sign-up</a>
                     </div>
-                    <div class="user-section" style="display:none;">
-                        <div class="wrapper-user-section">
+                    <div class="user-section">
+                        <div class="wrapper-user-cap">
                             <img src="img/user.svg" alt="">
                             <div class="user-name">Breakboy Lesha</div>
-                            <button><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
 
                             <div class="user-section-inner">
                                 <div class="user-box">
                                     <ul>
-                                        <li><a href="">Подписки</a></li>
-                                        <li><a href="">Личная информация</a></li>
-                                        <li><a href="">История платежей</a></li>
-                                        <li><a href="">Настройки</a></li>
-                                    </ul>
-                                    <ul>
-                                        <li><a href="">Выйти</a></li>
+                                        <li><a href="lk-1.html">Подписки</a></li>
+                                        <li><a href="lk-2.html">Личная информация</a></li>
+                                        <li><a href="lk-3.html">История платежей</a></li>
+                                        <li><a href="lk-4.html">Настройки</a></li>
+                                        <li>
+                                            <a href=""><img src="img/log-out.svg" alt=""> Выйти</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -96,208 +96,272 @@
                         <a href="battle.html" class="btn-banner">Смотреть баттл</a>
                     </div>
                 </div>
+
+            </div>
+        </div>
+        <div id="login" class="modal-box">
+            <div class="close" data-fancybox-close><svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24"><path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path></svg></div>
+            <div class="modal-form">
+                <div class="title-l">Вход</div>
+                <form action="">
+                    <div class="input-wrap">
+                        <label for="">Email*</label>
+                        <input type="email" name="" id="">
+                    </div>
+                    <div class="input-wrap">
+                        <label for="">Пароль*</label>
+                        <input type="password" name="" id="">
+                    </div>
+                    <p><a href="#password-recovery" class="modal-btn">Забыли пароль?</a></p>
+                    <button type="submit">Войти</button>
+                </form>
+                <div class="center"><a href="#sign-up" class="grey-link-up">Зарегистрироваться</a></div>
+            </div>
+            <div class="wrapper-height" style="display:none;">
+                <div class="center">
+                    <p>Форма сброса пароля отправлена на email. Если вы зарегистрированы в системе, письмо придет в течение нескольких минут. Если письма нет - проверьте папку спам.</p>
+                </div>
+            </div>
+        </div>
+        <div id="password-recovery" class="modal-box">
+            <div class="modal-form">
+                <div class="close" data-fancybox-close><svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24"><path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path></svg></div>
+                <div class="modal-form">
+                    <div class="title-l">ЗАБЫЛИ ПАРОЛЬ?</div>
+                    <form action="">
+                        <div class="input-wrap">
+                            <label for="">Укажите email*</label>
+                            <input type="email" name="" id="">
+                        </div>
+                        <button type="submit">Сбросить пароль</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="open-access-1" class="modal-box text-box">
+            <div class="close" data-fancybox-close><svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24"><path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path></svg></div>
+            <div class="center">
+                <div class="title-l">Это видео доступно <br> по подписке</div>
+                <div class="title-m black">откройте доступ ко всем видео и урокам</div>
+                <p class="grey">Every year we try to feature the best and most innovative B-Boy crews from all over the world. One of our goals is to make this event as international as we can.</p>
+                <a href="" class="btn-full-yellow btn-m">Оформить подписку</a>
+                <br>
+                <a class="grey-link-up" data-fancybox-close>позже</a>
+            </div>
+        </div>
+        <div id="open-access-2" class="modal-box text-box">
+            <div class="close" data-fancybox-close><svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24"><path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path></svg></div>
+            <div class="center">
+                <div class="title-l">Оформите подписку </div>
+                <div class="title-m black">и получите доступ ко всем видео и урокам</div>
+                <p class="grey">Every year we try to feature the best and most innovative B-Boy crews from all over the world. One of our goals is to make this event as international as we can.</p>
+                <a href="" class="btn-full-yellow btn-m">Оформить подписку</a>
+                <br>
+                <a class="grey-link-up" data-fancybox-close>позже</a>
             </div>
         </div>
     </header>
-    <section>
-        <div class="content">
-            <div class="title-m ">Upcoming events</div>
-            <div class="base-carousel-3 owl-carousel">
-                <div class="event-item">
-                    <div class="wrapper-event-inner">
-                        <div class="date">23 oct 2021</div>
-                        <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
+    <div class="main-content">
+        <section>
+            <div class="content">
+                <div class="title-l ">Upcoming events</div>
+                <div class="base-carousel-3 owl-carousel">
+                    <div class="event-item">
+                        <div class="wrapper-event-inner">
+                            <div class="date">23 oct 2021</div>
+                            <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
+                        </div>
+                        <img src="img/news-1.png" alt="">
+                        <a href="article-page.html"><span>Afterparty aka PDVL 7Yrs Anniversary в Баре Столярка</span></a>
                     </div>
-                    <img src="img/news-1.png" alt="">
-                    <a href="article-page.html"><span>Afterparty aka PDVL 7Yrs Anniversary в Баре Столярка</span></a>
+                    <div class="event-item yellow-link">
+                        <div class="wrapper-event-inner">
+                            <div class="date">23 oct 2021</div>
+                            <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
+                        </div>
+                        <img src="img/news-2.png" alt="">
+                        <a href="article-page.html"><span>Podvalove Bank Roll Contest</span></a>
+                    </div>
+                    <div class="event-item">
+                        <div class="wrapper-event-inner">
+                            <div class="date">23 oct 2021</div>
+                            <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
+                        </div>
+                        <img src="img/news-3.png" alt="">
+                        <a href="article-page.html"><span>Afterparty aka PDVL 7Yrs Anniversary в Баре Столярка</span></a>
+                    </div>
+                    <div class="event-item">
+                        <div class="wrapper-event-inner">
+                            <div class="date">23 oct 2021</div>
+                            <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
+                        </div>
+                        <img src="img/news-2.png" alt="">
+                        <a href="article-page.html"><span>Afterparty aka PDVL 7Yrs Anniversary в Баре Столярка</span></a>
+                    </div>
+                    <div class="event-item">
+                        <div class="wrapper-event-inner">
+                            <div class="date">23 oct 2021</div>
+                            <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
+                        </div>
+                        <img src="img/news-1.png" alt="">
+                        <a href="article-page.html"><span>Afterparty aka PDVL 7Yrs Anniversary в Баре Столярка</span></a>
+                    </div>
+                    <div class="event-item">
+                        <div class="wrapper-event-inner">
+                            <div class="date">23 oct 2021</div>
+                            <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
+                        </div>
+                        <img src="img/news-2.png" alt="">
+                        <a href="article-page.html"><span>Afterparty aka PDVL 7Yrs Anniversary в Баре Столярка</span></a>
+                    </div>
+                    <div class="event-item">
+                        <div class="wrapper-event-inner">
+                            <div class="date">23 oct 2021</div>
+                            <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
+                        </div>
+                        <img src="img/news-3.png" alt="">
+                        <a href="article-page.html"><span>Afterparty aka PDVL 7Yrs Anniversary в Баре Столярка</span></a>
+                    </div>
+                    <div class="event-item">
+                        <div class="wrapper-event-inner">
+                            <div class="date">23 oct 2021</div>
+                            <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
+                        </div>
+                        <img src="img/news-2.png" alt="">
+                        <a href="article-page.html"><span>Afterparty aka PDVL 7Yrs Anniversary в Баре Столярка</span></a>
+                    </div>
                 </div>
-                <div class="event-item yellow-link">
-                    <div class="wrapper-event-inner">
-                        <div class="date">23 oct 2021</div>
-                        <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
-                    </div>
-                    <img src="img/news-2.png" alt="">
-                    <a href="article-page.html"><span>Podvalove Bank Roll Contest</span></a>
-                </div>
-                <div class="event-item">
-                    <div class="wrapper-event-inner">
-                        <div class="date">23 oct 2021</div>
-                        <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
-                    </div>
-                    <img src="img/news-3.png" alt="">
-                    <a href="article-page.html"><span>Afterparty aka PDVL 7Yrs Anniversary в Баре Столярка</span></a>
-                </div>
-                <div class="event-item">
-                    <div class="wrapper-event-inner">
-                        <div class="date">23 oct 2021</div>
-                        <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
-                    </div>
-                    <img src="img/news-2.png" alt="">
-                    <a href="article-page.html"><span>Afterparty aka PDVL 7Yrs Anniversary в Баре Столярка</span></a>
-                </div>
-                <div class="event-item">
-                    <div class="wrapper-event-inner">
-                        <div class="date">23 oct 2021</div>
-                        <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
-                    </div>
-                    <img src="img/news-1.png" alt="">
-                    <a href="article-page.html"><span>Afterparty aka PDVL 7Yrs Anniversary в Баре Столярка</span></a>
-                </div>
-                <div class="event-item">
-                    <div class="wrapper-event-inner">
-                        <div class="date">23 oct 2021</div>
-                        <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
-                    </div>
-                    <img src="img/news-2.png" alt="">
-                    <a href="article-page.html"><span>Afterparty aka PDVL 7Yrs Anniversary в Баре Столярка</span></a>
-                </div>
-                <div class="event-item">
-                    <div class="wrapper-event-inner">
-                        <div class="date">23 oct 2021</div>
-                        <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
-                    </div>
-                    <img src="img/news-3.png" alt="">
-                    <a href="article-page.html"><span>Afterparty aka PDVL 7Yrs Anniversary в Баре Столярка</span></a>
-                </div>
-                <div class="event-item">
-                    <div class="wrapper-event-inner">
-                        <div class="date">23 oct 2021</div>
-                        <div class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> Moscow</div>
-                    </div>
-                    <img src="img/news-2.png" alt="">
-                    <a href="article-page.html"><span>Afterparty aka PDVL 7Yrs Anniversary в Баре Столярка</span></a>
+                <div class="center">
+                    <a href="/" class="btn-full-grey">Все события</a>
                 </div>
             </div>
-            <div class="center">
-                <a href="/" class="btn-full-grey">Все события</a>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="content">
-            <div class="title-m ">Breaking news</div>
-            <div class="base-carousel-3  news owl-carousel">
-                <div class="news-item yellow-link">
-                    <div class="wrapper-news-inner">
-                        <div class="date">23 oct 2021</div>
-                    </div>
-                    <img src="img/news-4.png" alt="">
-                    <div class="news-text">
-                        <a href="article-page.html"><span>Результаты Red Bull BC One
+        </section>
+        <section>
+            <div class="content">
+                <div class="title-l ">Breaking news</div>
+                <div class="base-carousel-3  news owl-carousel">
+                    <div class="news-item yellow-link">
+                        <div class="wrapper-news-inner">
+                            <div class="date">23 oct 2021</div>
+                        </div>
+                        <img src="img/news-4.png" alt="">
+                        <div class="news-text">
+                            <a href="article-page.html"><span>Результаты Red Bull BC One
                             Ukraine Cypher  2021</span></a>
-                        <p>Давно выяснено, что при оценке дизайна композиции читаемый текст мешает сосредоточиться. Используют потому обеспечивает более</p>
+                            <p>Давно выяснено, что при оценке дизайна композиции читаемый текст мешает сосредоточиться. Используют потому обеспечивает более</p>
+                        </div>
                     </div>
-                </div>
-                <div class="news-item">
-                    <div class="wrapper-news-inner">
-                        <div class="date">23 oct 2021</div>
+                    <div class="news-item">
+                        <div class="wrapper-news-inner">
+                            <div class="date">23 oct 2021</div>
+                        </div>
+                        <img src="img/news-5.png" alt="">
+                        <div class="news-text">
+                            <a href="article-page.html"><span>Год жизни двукратной чемпионки Red Bull BC One World Final</span></a>
+                            <p>Давно выяснено, что при оценке дизайна композиции читаемый текст мешает сосредоточиться. Используют потому обеспечивает более</p>
+                        </div>
                     </div>
-                    <img src="img/news-5.png" alt="">
-                    <div class="news-text">
-                        <a href="article-page.html"><span>Год жизни двукратной чемпионки Red Bull BC One World Final</span></a>
-                        <p>Давно выяснено, что при оценке дизайна композиции читаемый текст мешает сосредоточиться. Используют потому обеспечивает более</p>
-                    </div>
-                </div>
-                <div class="news-item  red-link">
-                    <div class="wrapper-news-inner">
-                        <div class="date">23 oct 2021</div>
-                    </div>
-                    <img src="img/news-6.png" alt="">
-                    <div class="news-text">
-                        <a href="article-page.html"><span>BC One Squad стали 
+                    <div class="news-item  red-link">
+                        <div class="wrapper-news-inner">
+                            <div class="date">23 oct 2021</div>
+                        </div>
+                        <img src="img/news-6.png" alt="">
+                        <div class="news-text">
+                            <a href="article-page.html"><span>BC One Squad стали 
                             победителями на Техасском 
                             BBoyCity 2021 </span></a>
-                        <p>Давно выяснено, что при оценке дизайна композиции читаемый текст мешает сосредоточиться.</p>
+                            <p>Давно выяснено, что при оценке дизайна композиции читаемый текст мешает сосредоточиться.</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="wrapper-news-inner">
+                            <div class="date">23 oct 2021</div>
+                        </div>
+                        <img src="img/news-4.png" alt="">
+                        <div class="news-text">
+                            <a href="article-page.html"><span>Год жизни двукратной чемпионки Red Bull BC One World Final</span></a>
+                            <p>Давно выяснено, что при оценке дизайна композиции читаемый текст мешает сосредоточиться. Используют потому обеспечивает более</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="wrapper-news-inner">
+                            <div class="date">23 oct 2021</div>
+                        </div>
+                        <img src="img/news-4.png" alt="">
+                        <div class="news-text">
+                            <a href="article-page.html"><span>Год жизни двукратной чемпионки Red Bull BC One World Final</span></a>
+                            <p>Давно выяснено, что при оценке дизайна композиции читаемый текст мешает сосредоточиться. Используют потому обеспечивает более</p>
+                        </div>
                     </div>
                 </div>
-                <div class="news-item">
-                    <div class="wrapper-news-inner">
-                        <div class="date">23 oct 2021</div>
-                    </div>
-                    <img src="img/news-4.png" alt="">
-                    <div class="news-text">
-                        <a href="article-page.html"><span>Год жизни двукратной чемпионки Red Bull BC One World Final</span></a>
-                        <p>Давно выяснено, что при оценке дизайна композиции читаемый текст мешает сосредоточиться. Используют потому обеспечивает более</p>
-                    </div>
-                </div>
-                <div class="news-item">
-                    <div class="wrapper-news-inner">
-                        <div class="date">23 oct 2021</div>
-                    </div>
-                    <img src="img/news-4.png" alt="">
-                    <div class="news-text">
-                        <a href="article-page.html"><span>Год жизни двукратной чемпионки Red Bull BC One World Final</span></a>
-                        <p>Давно выяснено, что при оценке дизайна композиции читаемый текст мешает сосредоточиться. Используют потому обеспечивает более</p>
-                    </div>
+                <div class="center">
+                    <a href="breaking-news.html" class="btn-full-grey">Все новости</a>
                 </div>
             </div>
-            <div class="center">
-                <a href="breaking-news.html" class="btn-full-grey">Все новости</a>
+        </section>
+        <section>
+            <div class="content">
+                <div class="title-l ">Dancers</div>
+                <div class="base-carousel-6 owl-carousel">
+                    <div class="danser-item">
+                        <a href="bboy-page.html">
+                            <img src="img/Malice.png" alt="">
+                            <span>Malice</span>
+                        </a>
+                    </div>
+                    <div class="danser-item">
+                        <a href="bboy-page.html">
+                            <img src="img/Poter.png" alt="">
+                            <span>Poter</span>
+                        </a>
+                    </div>
+                    <div class="danser-item">
+                        <a href="bboy-page.html">
+                            <img src="img/Sunny.png" alt="">
+                            <span>Sunny</span>
+                        </a>
+                    </div>
+                    <div class="danser-item">
+                        <a href="bboy-page.html">
+                            <img src="img/El-Nino.png" alt="">
+                            <span>El Nino</span>
+                        </a>
+                    </div>
+                    <div class="danser-item">
+                        <a href="bboy-page.html">
+                            <img src="img/Fleau.png" alt="">
+                            <span>Fleau</span>
+                        </a>
+                    </div>
+                    <div class="danser-item">
+                        <a href="bboy-page.html">
+                            <img src="img/Alkolil.png" alt="">
+                            <span>Alkolil</span>
+                        </a>
+                    </div>
+                    <div class="danser-item">
+                        <a href="bboy-page.html">
+                            <img src="img/El-Nino.png" alt="">
+                            <span>El Nino</span>
+                        </a>
+                    </div>
+                    <div class="danser-item">
+                        <a href="bboy-page.html">
+                            <img src="img/Fleau.png" alt="">
+                            <span>Fleau</span>
+                        </a>
+                    </div>
+                    <div class="danser-item">
+                        <a href="bboy-page.htmlbboy-page.html">
+                            <img src="img/Alkolil.png" alt="">
+                            <span>Alkolil</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="center"><a href="dancers.html" class="btn-full-grey">Все Танцоры</a></div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="content">
-            <div class="title-m ">Dancers</div>
-            <div class="base-carousel-6 owl-carousel">
-                <div class="danser-item">
-                    <a href="bboy-page.html">
-                        <img src="img/Malice.png" alt="">
-                        <span>Malice</span>
-                    </a>
-                </div>
-                <div class="danser-item">
-                    <a href="bboy-page.html">
-                        <img src="img/Poter.png" alt="">
-                        <span>Poter</span>
-                    </a>
-                </div>
-                <div class="danser-item">
-                    <a href="bboy-page.html">
-                        <img src="img/Sunny.png" alt="">
-                        <span>Sunny</span>
-                    </a>
-                </div>
-                <div class="danser-item">
-                    <a href="bboy-page.html">
-                        <img src="img/El-Nino.png" alt="">
-                        <span>El Nino</span>
-                    </a>
-                </div>
-                <div class="danser-item">
-                    <a href="bboy-page.html">
-                        <img src="img/Fleau.png" alt="">
-                        <span>Fleau</span>
-                    </a>
-                </div>
-                <div class="danser-item">
-                    <a href="bboy-page.html">
-                        <img src="img/Alkolil.png" alt="">
-                        <span>Alkolil</span>
-                    </a>
-                </div>
-                <div class="danser-item">
-                    <a href="bboy-page.html">
-                        <img src="img/El-Nino.png" alt="">
-                        <span>El Nino</span>
-                    </a>
-                </div>
-                <div class="danser-item">
-                    <a href="bboy-page.html">
-                        <img src="img/Fleau.png" alt="">
-                        <span>Fleau</span>
-                    </a>
-                </div>
-                <div class="danser-item">
-                    <a href="bboy-page.htmlbboy-page.html">
-                        <img src="img/Alkolil.png" alt="">
-                        <span>Alkolil</span>
-                    </a>
-                </div>
-            </div>
-            <div class="center"><a href="" class="btn-full-grey">Все Танцоры</a></div>
-        </div>
-    </section>
+        </section>
+    </div>
     <footer>
         <div class="content">
             <div class="wrapper-footer">
@@ -312,7 +376,7 @@
                         <li><a href="">Battle league</a></li>
                     </ul>
                     <ul>
-                        <li><a href="">Dancers</a></li>
+                        <li><a href="dancers.html">Dancers</a></li>
                         <li><a href="events.html">Events</a></li>
                     </ul>
                     <ul>
@@ -346,6 +410,13 @@
     </footer>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <script>
+        $(function() {
+            $(".modal-btn").fancybox({});
+        });
+    </script>
 </body>
 
 </html>
