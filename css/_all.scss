@@ -49,11 +49,6 @@
     }
 }
 
-.banner-inner p {
-    font-size: 1.125rem;
-    margin-bottom: 45px;
-}
-
 .title-xl {
     font-size: 3.125rem;
     margin: 20px 0 30px;
@@ -292,9 +287,6 @@ button.disabled {
 }
 
 .news {
-    .news-item {
-        height: 100%;
-    }
     .owl-stage {
         align-items: stretch;
     }
@@ -565,6 +557,7 @@ button.disabled {
     }
     .image p img {
         margin-right: 25px;
+        width: 61px;
     }
     .detailed-information {
         padding: 50px 50px 20px 50px;
@@ -734,6 +727,12 @@ button.disabled {
     }
 }
 
+.wrapper-video {
+    >div {
+        width: 49%;
+    }
+}
+
 .video-item.lock.maxi {
     .fa-lock {
         font-size: 39px;
@@ -773,6 +772,10 @@ button.disabled {
         border-radius: 5px;
         margin-bottom: 10px;
     }
+    .wrapper-bboy-info img {
+        width: 35px;
+        height: 35px;
+    }
     >p {
         font-size: 1.625rem;
         padding: 0 30px 50px 40px;
@@ -786,6 +789,9 @@ button.disabled {
         border-left: 24px solid white;
         border-bottom: 12px solid transparent;
         top: calc(50% - (24px / 2));
+    }
+    img {
+        width: 100%;
     }
 }
 
@@ -953,8 +959,7 @@ td.second-danser {
 .add-event,
 .back {
     display: flex;
-    width: 208px;
-    height: 47px;
+    padding: 14px 37px;
     align-items: center;
     border-radius: 5px;
     border: solid 1px #e0e0e0;
@@ -974,8 +979,7 @@ td.second-danser {
 .back {
     color: #888888;
     border-color: #888888;
-    width: 221px;
-    height: 37px;
+    display: inline-block;
     margin-bottom: 30px;
     i {
         color: #888888;
@@ -1032,13 +1036,9 @@ td.second-danser {
 }
 
 .wrapper-images {
-    justify-content: flex-start;
     margin-top: 40px;
-    a+a {
-        margin-left: 20px;
-    }
     a {
-        max-width: 324px;
+        width: 49%;
     }
     a img {
         display: block;
@@ -1274,11 +1274,16 @@ td.second-danser {
     }
 }
 
+.detailed-information .wrapper-courses-teacher img {
+    max-width: 194px;
+}
+
 .wrapper-courses-teacher {
     justify-content: flex-start;
     padding-top: 45px;
     img {
         width: 45%;
+        max-width: 226px;
     }
     .teacher-info {
         width: 55%;
@@ -1393,7 +1398,7 @@ td.second-danser {
     justify-content: center;
     margin-bottom: 50px;
     img {
-        margin-left: 15px;
+        margin: 0 15px;
     }
 }
 
@@ -1401,8 +1406,7 @@ td.second-danser {
     .number {
         width: 34px;
         height: 34px;
-        margin: 0 15px 0 20.1px;
-        padding: 8px 12px 10px;
+        margin: 0 15px 0 0;
         border: solid 2px #c5c5c5;
         display: flex;
         align-items: center;
@@ -1670,21 +1674,20 @@ td.second-danser {
     text-transform: initial;
 }
 
-.wrapper-input-box {
-    justify-content: flex-start;
-}
-
 .wrapper-input-box .input-wrap {
     margin-top: 25px;
-    margin-right: 25px;
     max-width: 354px;
-    width: 50%;
+    width: 49%;
     label {
         font-size: 0.875rem;
     }
     input {
         margin-top: 7px;
     }
+}
+
+.wrapper-input-box {
+    max-width: 740px;
 }
 
 button.btn-mini {
@@ -1727,9 +1730,12 @@ button.btn-mini {
 .title {
     font-weight: bold;
     text-transform: uppercase;
-    color: #000;
     font-size: 1.125rem;
     margin-top: 40px;
+}
+
+.white-bg .title {
+    color: #000;
 }
 
 .ckeck-box input {

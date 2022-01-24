@@ -55,3 +55,38 @@ footer {
         fill: $basecolor;
     }
 }
+
+nav#main-nav {
+    display: none;
+}
+
+@media all and (max-width:1024px) {
+    .wrapper-footer-menu {
+        order: -1;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .wrapper-footer-menu {
+        ul {
+            min-width: initial;
+        }
+        ul:last-child {
+            text-align: right;
+        }
+    }
+    .wrapper-footer .follow-us {
+        text-align: right;
+    }
+    .logo-footer img {
+        margin-bottom: 10px;
+        width: 70px;
+    }
+    .logo-footer p {
+        margin: 0;
+    }
+    .wrapper-footer {
+        align-items: flex-end;
+    }
+}
+
+@media all and (max-width:500px) {}

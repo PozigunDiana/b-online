@@ -1,0 +1,367 @@
+@media all and (max-width:1300px) {
+    .personal-account-section .rate-box {
+        width: 49%;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width:1200px) {
+    .bboy-page {
+        .part-left {
+            width: 100%;
+        }
+        .part-right {
+            width: 100%;
+            padding: 30px;
+        }
+    }
+    .wrapper-detailed-information .detailed-information {
+        padding: 30px;
+    }
+    .rate-box {
+        padding: 20px;
+    }
+}
+
+@media all and (max-width:1024px) {
+    .news-item {
+        .news-text {
+            padding: 20px;
+        }
+    }
+    .wrapper-detailed-information {
+        .part-left {
+            width: 100%;
+        }
+        .part-right {
+            width: 100%;
+            padding: 30px;
+        }
+    }
+    .wrapper-detailed-information .image p {
+        left: 30px;
+    }
+    .wrapper-result-section .result-event {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .wrapper-result-section .gallery-slider {
+        width: 100%;
+    }
+    .slider-for.tabs__body {
+        .image-tabs {
+            width: 100%;
+        }
+    }
+    .arrow-next.slick-arrow {
+        bottom: -20px;
+    }
+    .wrapper-detail {
+        div {
+            width: 100%;
+        }
+        div+div {
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+    }
+    .wrapper-lesson {
+        padding: 0 20px 30px 30px;
+    }
+    .rate-box {
+        width: calc(100% / 2 - 10px);
+        margin-bottom: 20px;
+    }
+    .wrapper-user-section .personal-account-side {
+        width: 201px;
+    }
+    .personal-account-side:before,
+    .user-nav li.active:before {
+        right: 200px;
+    }
+    .wrapper-user-section .personal-account-section {
+        width: calc(100% - 201px);
+        padding-left: 30px;
+    }
+}
+
+@media all and (max-width: 870px) {
+    .wrapper-video {
+        >div {
+            width: 100%;
+        }
+        div:nth-child(1) {
+            margin-bottom: 30px;
+        }
+    }
+    .video-item:not(.maxi) {
+        a>p {
+            padding: 0 10px 20px;
+            line-height: 1.3rem;
+        }
+    }
+    .wrapper-container>div {
+        width: calc(100% / 2 - 2%);
+        margin: 0 1% 20px;
+    }
+    .video-item.lock {
+        .fa-lock {
+            top: 10px;
+            left: 20px;
+        }
+        .more {
+            left: 20px;
+            bottom: 20px;
+        }
+        .titles {
+            padding-left: 20px;
+        }
+    }
+    .wrapper-search-section .alphabet-part,
+    .wrapper-search-section .popular-part {
+        width: 100%;
+        max-width: initial;
+    }
+    .wrapper-dancers-container .danser-item {
+        width: calc(100% / 4 - 2%);
+        margin: 0 1% 15px;
+    }
+    .wrapper-description-section {
+        .text:nth-child(1),
+        .text:nth-child(2) {
+            width: 100%;
+            padding: 0;
+        }
+        .text+.text {
+            margin-top: 20px;
+        }
+    }
+    .wrapper-lesson {
+        padding: 0 20px 20px 20px;
+    }
+    .wrapper-lesson .wrapper-bboy-info {
+        margin-left: 0;
+        width: 100%;
+    }
+    .wrapper-step p {
+        font-size: 0.8rem;
+    }
+    .restration-form .border-box {
+        padding: 20px;
+    }
+    .wrapper-input-box .input-wrap {
+        width: 100%;
+        max-width: initial;
+    }
+    .wrapper-input-box {
+        max-width: initial;
+    }
+}
+
+@media all and (max-width:720px) {
+    .owl-carousel .owl-nav .owl-prev {
+        left: 0px;
+    }
+    .owl-carousel .owl-nav .owl-next {
+        right: 0px;
+    }
+    section {
+        margin: 0 0 40px 0;
+    }
+    .map-page {
+        padding: 30px 0;
+    }
+    .add-event,
+    .back {
+        padding: 10px 20px;
+    }
+    .border-box {
+        padding: 25px;
+    }
+    .wrapper-detailed-information .image p {
+        left: 20px;
+        font-size: 1.4rem;
+    }
+    .wrapper-detailed-information .image p img {
+        width: 35px;
+        margin-right: 20px;
+    }
+    .wrapper-step {
+        width: 33%;
+        p {
+            width: 100%;
+            text-align: center;
+            line-height: 1rem;
+        }
+        .number {
+            margin: 0 auto;
+        }
+    }
+    .wrapper-steps {
+        margin-bottom: 20px;
+        align-items: flex-start;
+        img {
+            margin-top: 13px;
+        }
+    }
+    .white-page {
+        padding: 25px 0 50px;
+    }
+}
+
+@media all and (max-width:650px) {
+    .wrapper-registration-section .rate-box,
+    .restration-form {
+        width: 100%;
+    }
+    .restration-form {
+        order: 1;
+    }
+    .user-name-info {
+        margin-bottom: 0;
+    }
+    .personal-account-side:before,
+    .user-nav li.active:before {
+        display: none;
+    }
+    .wrapper-user-section .personal-account-side {
+        width: 100%;
+        padding: 20px 0;
+        background: initial;
+        border: none;
+    }
+    .wrapper-user-section .personal-account-section {
+        width: 100%;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .user-nav {
+        display: flex;
+        flex-direction: column;
+        &:after {
+            display: none;
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 0px;
+        }
+        li a {
+            padding: 0 5px;
+            width: 100%;
+            text-align: center;
+            height: 100%;
+            line-height: 1.3rem;
+            display: flex;
+            align-items: center;
+            font-size: 0.8rem;
+            justify-content: center;
+        }
+        li {
+            display: flex;
+            flex-grow: 1;
+            align-items: stretch;
+            justify-content: center;
+            min-height: 40px;
+        }
+    }
+    .log-out {
+        width: max-content;
+        order: -1;
+        margin: 20px 0;
+    }
+}
+
+@media all and (max-width:550px) {
+    .video-item.maxi {
+        a>p {
+            padding: 0 20px 20px 20px;
+        }
+        .play {
+            width: 50px;
+            height: 50px;
+        }
+        .play:before {
+            border-top: 6px solid transparent;
+            border-left: 12px solid white;
+            border-bottom: 6px solid transparent;
+            top: calc(50% - (12px / 2));
+        }
+    }
+    .wrapper-container>div {
+        width: 100%;
+    }
+    .video-item img {
+        width: 100%;
+    }
+    .danser-item span {
+        bottom: 20px;
+        left: 20px;
+    }
+    .wrapper-bboy-info {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+        span {
+            font-size: 0.8rem;
+        }
+    }
+    .title-l {
+        font-size: 2rem;
+        margin-bottom: 25px;
+    }
+    .video-item.lock.maxi {
+        .titles {
+            padding-left: 20px;
+        }
+        .fa-lock {
+            font-size: 30px;
+            top: 20px;
+            left: 20px;
+        }
+        .btn-full-yellow {
+            bottom: 20px;
+            left: 20px;
+            padding: 13px 20px;
+        }
+    }
+    .wrapper-dancers-container .danser-item {
+        width: calc(100% / 3 - 2%);
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .base-page h1 {
+        margin-bottom: 30px;
+    }
+    .border-box {
+        padding: 20px;
+    }
+    .caption-banner {
+        min-height: 450px;
+        padding-bottom: 30px;
+    }
+    .bboy-page {
+        .part-right {
+            padding: 20px;
+        }
+    }
+    .wrapper-detailed-information .part-right {
+        padding: 20px;
+    }
+    .wrapper-result-section .gallery-slider {
+        padding: 0 18px;
+        margin-top: 0px;
+    }
+    .rate-box {
+        width: 100%;
+    }
+    .personal-account-section .rate-box {
+        width: 100%;
+    }
+    .paid {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
